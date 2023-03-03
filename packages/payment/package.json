@@ -1,0 +1,26 @@
+{
+  "name": "payment",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Victor França Lopes <18534956+vflopes@users.noreply.github.com>",
+  "homepage": "https://github.com/upper-institute/reppu-web-app#readme",
+  "license": "ISC",
+  "main": "lib/payment.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upper-institute/reppu-web-app.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/payment.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/upper-institute/reppu-web-app/issues"
+  }
+}
