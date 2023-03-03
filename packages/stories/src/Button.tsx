@@ -48,7 +48,7 @@ const StyledButton = styled.button<ButtonProps>`
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
+  border-radius: 1em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -62,7 +62,7 @@ const StyledButton = styled.button<ButtonProps>`
     `}
 `
 
-const Button = ({ variant, backgroundColor, size, label, ...props }: ButtonProps) => {
+export const Button = ({ variant, backgroundColor, size, label, ...props }: ButtonProps) => {
 
   return (
     <StyledButton
@@ -85,5 +85,3 @@ Button.defaultProps = {
   size: 'medium',
   onClick: undefined,
 }
-
-export default Button

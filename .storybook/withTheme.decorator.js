@@ -1,8 +1,8 @@
 import { ThemeProvider } from 'styled-components'
-import { lightTheme } from '../src/stories/theme'
+import { defaultTheme } from '../packages/stories/src/theme'
 
 export const withTheme = (Story) => (
-  <ThemeProvider theme={lightTheme}>
+  <ThemeProvider theme={defaultTheme}>
     <Story />
   </ThemeProvider>
 )
